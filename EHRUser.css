@@ -1,0 +1,53 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box
+}
+    
+    header {
+        background-color: rgb(0, 64, 255);
+        padding: 30px;
+        text-align: center;
+
+    }
+    
+    .imgcontainer {
+        text-align: center;
+        margin: 30px 0 24px 0;
+    }
+
+    input[type=text], input[type=number] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+
+        box-sizing: border-box;
+      }
+
+      button {
+        background-color:  rgb(0, 64, 255);
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        margin-left: 70px;
+        border: none;
+        cursor: pointer;
+        width: 30%;
+      }
+
+
+    footer {
+
+        padding: 4px;
+        background-color: rgb(0, 64, 255);
+        height: 50px;
+        margin-top: 220px;
+        
+    }	
+
+    

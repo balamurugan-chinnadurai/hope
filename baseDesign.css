@@ -1,0 +1,93 @@
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	* {
+		box-sizing: border-box
+	}
+		
+		header {
+			background-color: rgb(0, 64, 255);
+			padding: 30px;
+			text-align: center;
+
+		}
+
+
+		article {
+			padding: 10px ;
+			border: 2px solid blue;
+		}
+
+			form {
+				border: 3px solid #f1f1f1;
+				width: 550px;
+				height: 600px;
+				position: relative;
+				left: 350px;
+
+
+			}
+
+			
+
+		   input[type=text], input[type=password] {
+			  width: 100%;
+			  padding: 12px 20px;
+			  margin: 8px 0;
+			  display: inline-block;
+			  border: 1px solid #ccc;
+			  box-sizing: border-box;
+			}
+
+			button {
+			  background-color:  rgb(0, 64, 255);
+			  color: white;
+			  padding: 14px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 500px;
+			  
+			}
+
+			button:hover {
+			  opacity: 0.8;
+			}
+
+			span.psw {
+			  float: right;
+			  padding-top: 16px;
+			}
+
+			span.forgot {
+				float: right;
+			}
+
+			.logincontainer {
+			  padding: 20px;
+			}
+
+			.imgcontainer {
+			  text-align: center;
+			  margin: 24px 0 12px 0;
+			}
+
+			img.avatar {
+			  width: 40%;
+			  border-radius: 50%;
+			}
+
+			label{
+					 font-family: "Times New Roman", Times, serif;
+			}
+
+		footer {
+
+			padding: 4px;
+			background-color: rgb(0, 64, 255);
+			height: 50px;
+			
+		}	
+
+		
